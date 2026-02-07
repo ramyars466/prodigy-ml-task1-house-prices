@@ -30,3 +30,8 @@ The goal is to build a **linear regression model** to predict house prices using
 1. Open the notebook in Google Colab using the "Open in Colab" button.
 2. Upload `train.csv` and `test.csv` from the Kaggle competition.
 3. Run all cells to reproduce the results.
+4. 
+## Outputs
+
+- `submission.csv` – model predictions (`Id`, `SalePrice`) for all rows in `test.csv`.
+- The notebook also displays a preview of the predicted prices using `submission.head()`.
